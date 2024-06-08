@@ -107,6 +107,10 @@ sections: [
 rows: [
 { header: lenguajeCD['smsLista1'](), title: "", description: "INFORMACIÓN DEL BOT", id: usedPrefix + "estado" }
 ]},
+{ title: "(𝙉𝙖𝙩𝙨𝙪𝙠𝙞𝘽𝙤𝙩) 𝙄𝙣𝙛𝙤 𝘾𝙧𝙚𝙖𝙙𝙤𝙧 🍃",
+rows: [
+{ header: lenguajeCD['smsLista2'](), title: "", description: "𝙸𝙽𝙵𝙾𝚁𝙼𝙰𝙲𝙸𝙾𝙽 𝙳𝙴 𝙼𝙸 𝙲𝚁𝙴𝙰𝙳𝙾𝚁", id: usedPrefix + "owner" }
+]},
 { title: "(𝙉𝙖𝙩𝙨𝙪𝙠𝙞𝘽𝙤𝙩) 𝙄𝙣𝙛𝙤 𝙑𝙚𝙡𝙤𝙘𝙞𝙙𝙖𝙙 🍄",
 rows: [
 { header: lenguajeCD['smsLista4'](), title: "", description: "𝙸𝙽𝙵𝙾𝚁𝙼𝙰𝙲𝙸𝙾𝙽 𝙳𝙴 𝙻𝙰 𝚅𝙴𝙻𝙸𝙲𝙸𝙳𝙰𝙳 𝙳𝙴𝙻 𝙱𝙾𝚃", id: usedPrefix + "velocidad" }
