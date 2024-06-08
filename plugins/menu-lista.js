@@ -97,7 +97,7 @@ let menu = `
 \`Experiencia:\` ${exp} ⚡
 \`Diamantes:\` ${limit} 💎
 \`FenixCoins:\` ${money} 💵
-\`Tokens:\` ${joincount} 🪙\n `.trim()
+\`Tokens:\` ${joincount} 🪙\n ┗━━━━⏤͟͟͞͞★꙲⃝͟❈┉━━━━━━┛`.trim()
 
 const buttonParamsJson = JSON.stringify({
 title: lenguajeCD['smsListaMenu'](),
@@ -145,8 +145,8 @@ rows: [
 const interactiveMessage = {
 body: { text: menu },
 footer: { text: fantasy + ` \n☃️` },
-header: { title: `\n-ˋˏᴜsᴜᴀʀɪᴏ: ˎˊ-\n╭━━━━━━━━━━━━━━━╮\n┃🍁❥̷᜔ ${username}❁⃟ࣾ❥̷.⁞. ┃\n╰━━━┳━━━━━━━━━━━╯
-     ╰ᴍᴇɴᴜ́:\n┋❀̥˚ʙʏ ALDAIR┋
+header: { title: `⋆┈┈｡❃ུ۪ ❀ུ۪ ❁ུ۪ ❃ུ۪ ❀ུ۪ ｡┈┈⋆\n-ˋˏᴜsᴜᴀʀɪᴏ: ˎˊ-\n╭━━━━━━━━━━━━━━━╮\n┃🍁❥̷᜔ ${username}❁⃟ࣾ❥̷.⁞. ┃\n╰━━━┳━━━━━━━━━━━╯
+     ╰ᴍᴇɴᴜ́:\n┋❀̥˚ᴘᴏᴡʀᴇᴅ ʙʏ ALDAIR┋
  ┈──❊:::::::¨¨*:::::::❊──┈\n_${global.saludo}_`, subtitle: "test4", hasMediaAttachment: false },
 nativeFlowMessage: { buttons: [{ 
 name: "single_select",
@@ -620,4 +620,3 @@ function ucapan() {
   }
   return res
 } 
-*/
