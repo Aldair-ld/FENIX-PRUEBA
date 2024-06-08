@@ -97,7 +97,7 @@ let menu = `
 \`Experiencia:\` ${exp} ⚡
 \`Diamantes:\` ${limit} 💎
 \`FenixCoins:\` ${money} 💵
-\`Tokens:\` ${joincount} 🪙\n ┗━━━━⏤͟͟͞͞★꙲⃝͟🌷❈┉━━━━━━┛`.trim()
+\`Tokens:\` ${joincount} 🪙\n `.trim()
 
 const buttonParamsJson = JSON.stringify({
 title: lenguajeCD['smsListaMenu'](),
