@@ -107,10 +107,6 @@ sections: [
 rows: [
 { header: lenguajeCD['smsLista1'](), title: "", description: "INFORMACIÓN DEL BOT", id: usedPrefix + "estado" }
 ]},
-{ title: "(𝙉𝙖𝙩𝙨𝙪𝙠𝙞𝘽𝙤𝙩) 𝙄𝙣𝙛𝙤 𝘾𝙧𝙚𝙖𝙙𝙤𝙧 🍃",
-rows: [
-{ header: lenguajeCD['smsLista3'](), title: "", description: "𝙰𝙿𝙾𝚈𝙰𝚁 𝙰 𝙽𝚄𝚁𝚂𝚃𝚁𝙾 𝙿𝚁𝙾𝚈𝙴𝙲𝚃𝙾", id: usedPrefix + "donar" }
-]},
 { title: "(𝙉𝙖𝙩𝙨𝙪𝙠𝙞𝘽𝙤𝙩) 𝙄𝙣𝙛𝙤 𝙑𝙚𝙡𝙤𝙘𝙞𝙙𝙖𝙙 🍄",
 rows: [
 { header: lenguajeCD['smsLista4'](), title: "", description: "𝙸𝙽𝙵𝙾𝚁𝙼𝙰𝙲𝙸𝙾𝙽 𝙳𝙴 𝙻𝙰 𝚅𝙴𝙻𝙸𝙲𝙸𝙳𝙰𝙳 𝙳𝙴𝙻 𝙱𝙾𝚃", id: usedPrefix + "velocidad" }
@@ -129,23 +125,9 @@ rows: [
 ]},
 { title: "(𝙉𝙖𝙩𝙨𝙪𝙠𝙞𝘽𝙤𝙩) 𝙄𝙣𝙛𝙤 𝙈𝙚𝙣𝙪́ 𝘽𝙪𝙨𝙦𝙪𝙚𝙙𝙖𝙨 📚", highlight_label: "Próximamente",
 rows: [
-{ header: lenguajeCD['smsLista20'](), title: "", description: "𝙸𝙽𝙵𝙾 𝙳𝙴𝙻 𝙻𝙰 𝙻𝙸𝚂𝚃𝚀 𝙳𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾𝚂 𝙳𝙴 𝙱𝚄𝚂𝚀𝚄𝙴𝙳𝙰𝚂", id: usedPrefix + "menubusquedas" }
-]},
-{ title: "(𝙉𝙖𝙩𝙨𝙪𝙠𝙞𝘽𝙤𝙩) 𝙅𝙪𝙚𝙜𝙤𝙨 𝘿𝙞𝙣𝙖𝙢𝙞𝙘𝙤𝙨 📚", highlight_label: "Próximamente",
-rows: [
-{ header: lenguajeCD['smsLista24'](), title: "", description: "𝙼𝙴𝙽𝚄 𝙳𝙴 𝙻𝙾𝚂 𝙹𝚄𝙴𝙶𝙾𝚂 𝙳𝙸𝙽𝙰𝙼𝙸𝙲𝙾𝚂 𝙳𝙴𝙻 𝙱𝙾𝚃", id: usedPrefix + "menujuegos" }
-]},
-{ title: "(𝙉𝙖𝙩𝙨𝙪𝙠𝙞𝘽𝙤𝙩) 𝙄𝙣𝙛𝙤 𝙎𝙩𝙞𝙘𝙠𝙚𝙧𝙨 𝙮 𝙁𝙞𝙡𝙩𝙧𝙤𝙨 📚", highlight_label: "Próximamente",
-rows: [
-{ header: lenguajeCD['smsLista26'](), title: "", description: "𝙸𝙽𝙵𝙾 𝙼𝙴𝙽𝚄 𝙳𝙴 𝚂𝚃𝙸𝙲𝙺𝙴𝚁𝚂 𝚈 𝙵𝙸𝙻𝚃𝚁𝙾𝚂", id: usedPrefix + "menufiltrios" }
-]},
 { title: "(𝙉𝙖𝙩𝙨𝙪𝙠𝙞𝘽𝙤𝙩) 𝙄𝙣𝙛𝙤 𝙈𝙚𝙣𝙪 𝙡𝙖 𝙗𝙞𝙗𝙡𝙞𝙖 🥵",
 rows: [
 { header: lenguajeCD['smsLista30'](), title: "", description: "𝙸𝙽𝙵𝙾(𝙻𝙸𝚂𝚃𝙰 𝙳𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾𝚂 +18", id: usedPrefix + "labiblia" }
-]},
-{ title: "(𝙉𝙖𝙩𝙨𝙪𝙠𝙞𝘽𝙤𝙩) 𝙈𝙚𝙣𝙪́ 𝙥𝙖𝙧𝙖 𝙂𝙧𝙪𝙥𝙤𝙨 🐢", highlight_label: "Próximamente",
-rows: [
-{ header: lenguajeCD['smsLista32'](), title: "", description: "𝙻𝙸𝚂𝚃𝙰 𝙳𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾𝚂 𝙿𝙰𝚁𝙰 𝙶𝚁𝚄𝙿𝙾𝚂", id: usedPrefix + "menugroups" }
 ]},
 { title: "(𝙉𝙖𝙩𝙨𝙪𝙠𝙞𝘽𝙤𝙩) 𝘾𝙧𝙚𝙣𝙩𝙧𝙤 𝙙𝙚 𝙘𝙤𝙣𝙛𝙪𝙜𝙪𝙧𝙖𝙘𝙞𝙤𝙣𝙚𝙨 🍄",
 rows: [
