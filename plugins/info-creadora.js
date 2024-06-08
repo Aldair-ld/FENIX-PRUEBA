@@ -8,7 +8,7 @@ let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status
 let pp = gataImg.getRandom()	
 const cat = `
 ${global.fantasy} 𝒃𝒚 ${global.wm}
-𝙰 𝙲𝙾𝙽𝚃𝙸𝙽𝚄𝙰𝙲𝙸𝙾𝙽 𝚂𝙴 𝙴𝙽𝚅𝙸𝙰𝚁𝙰 𝙴𝙻 𝙲𝙾𝙽𝚃𝙰𝙲𝚃𝙾 𝙳𝙴 𝙼𝙸𝚂 𝙿𝚁𝙾𝙿𝙸𝙴𝚃𝙰𝚁𝙸𝙾(𝙰)`
+🔰 𝚂𝙴 𝙴𝙽𝚅𝙸𝙰𝚁𝙰 𝙻𝙾𝚂 𝙽𝚄́𝙼𝙴𝚁𝙾𝚂 𝙳𝙴 𝙼𝙸𝚂 𝙿𝚁𝙾𝙿𝙸𝙴𝚃𝙰𝚁𝙸𝙾𝚂 🔰`
 let biografiaBot = await conn.fetchStatus(conn.user.jid.split('@')[0] + '@s.whatsapp.net').catch(_ => 'undefined')
 let bioBot = biografiaBot.status?.toString() || `${desc2 == '' ? lenguajeGB.smsContacto1() : desc2}`
 
